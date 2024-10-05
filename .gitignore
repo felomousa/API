@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+venv/
+.vscode/
 # Distribution / packaging
 .Python
 build/
@@ -120,7 +121,7 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
-
+.spotipy_cache
 # Environments
 .env
 .venv
